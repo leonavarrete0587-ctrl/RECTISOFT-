@@ -1,0 +1,14 @@
+RECTISOFT - Interfaz web inicial
+
+Estructura:
+- index.html: estructura HTML de la interfaz.
+- css/estilos.css: estilos y diseño adaptable a celular y computador.
+- js/app.js: navegación e interacciones.
+
+Para ejecutar:
+1. Extrae el archivo ZIP.
+2. Abre la carpeta en Visual Studio Code.
+3. Abre index.html en el navegador o utiliza Live Server.
+4. Prueba los botones del menú y los accesos rápidos.
+
+Nota: los indicadores son datos de demostración. Los módulos todavía no están conectados a una base de datos.

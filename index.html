@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RECTISOFT | Panel principal</title>
+<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#" data-page="inicio"><b class="logo">R</b><span><strong>RECTISOFT</strong><small>Gestión de rectificadora</small></span></a>
+  <button id="menuToggle" class="menu-toggle" aria-label="Abrir menú">☰</button>
+  <div class="user"><i></i> Sistema operativo <b>AD</b> Administrador</div>
+</header>
+<div class="layout">
+<aside class="sidebar" id="sidebar">
+  <small class="label">MENÚ PRINCIPAL</small>
+  <nav>
+    <button class="nav active" data-page="inicio">⌂ <span>Inicio</span></button>
+    <button class="nav" data-page="clientes">♙ <span>Clientes</span></button>
+    <button class="nav" data-page="ordenes">▤ <span>Órdenes de trabajo</span></button>
+    <button class="nav" data-page="servicios">⚙ <span>Servicios</span></button>
+    <button class="nav" data-page="inventario">▦ <span>Inventario</span></button>
+    <button class="nav" data-page="mecanicos">♧ <span>Mecánicos</span></button>
+    <button class="nav" data-page="reportes">▥ <span>Reportes</span></button>
+  </nav>
+  <div class="bottom-menu"><small class="label">CONFIGURACIÓN</small><button class="nav" data-page="configuracion">⚙ <span>Configuración</span></button><div class="help"><b>¿Necesitas ayuda?</b><p>Consulta la información del sistema RECTISOFT.</p></div><small class="version">RECTISOFT · Versión 1.0</small></div>
+</aside>
+<main>
+<section id="home" class="page active">
+  <div class="heading"><div><small class="eyebrow">PANEL DE CONTROL</small><h1>Panel principal</h1><p>Resumen general del taller y sus operaciones.</p></div><time id="today"></time></div>
+  <section class="hero"><div><small>BIENVENIDO A RECTISOFT</small><h2>Controla tu rectificadora desde un solo lugar.</h2><p>Administra clientes, órdenes de trabajo, servicios e inventario de forma sencilla.</p><button data-page="ordenes" class="primary">Ver órdenes de trabajo →</button></div><div class="hero-logo">R<span>⚙</span></div></section>
+  <div class="section-title"><div><h2>Indicadores</h2><p>Estado general de la operación</p></div><small class="demo">● Datos de demostración</small></div>
+  <div class="stats">
+    <article><label>♙ CLIENTES</label><strong>12</strong><small>Clientes registrados</small></article>
+    <article><label>▤ ÓRDENES</label><strong>38</strong><small>Órdenes registradas</small></article>
+    <article><label>⚙ SERVICIOS</label><strong>09</strong><small>Servicios disponibles</small></article>
+    <article><label>▦ INVENTARIO</label><strong>24</strong><small>Productos registrados</small></article>
+  </div>
+  <div class="section-title quick-title"><div><h2>Accesos rápidos</h2><p>Selecciona un módulo para comenzar</p></div></div>
+  <div class="quick">
+    <button data-page="clientes"><b>♙</b><strong>Clientes</strong><small>Consultar y registrar clientes</small><em>→</em></button>
+    <button data-page="ordenes"><b>▤</b><strong>Órdenes de trabajo</strong><small>Gestionar trabajos del taller</small><em>→</em></button>
+    <button data-page="inventario"><b>▦</b><strong>Inventario</strong><small>Consultar productos y existencias</small><em>→</em></button>
+    <button data-page="reportes"><b>▥</b><strong>Reportes</strong><small>Revisar información general</small><em>→</em></button>
+  </div>
+</section>
+<section id="module" class="page">
+  <div class="heading"><div><small class="eyebrow">GESTIÓN DEL TALLER</small><h1 id="moduleTitle">Clientes</h1><p id="moduleSubtitle">Consulta y administra la información.</p></div></div>
+  <article class="module"><b id="moduleIcon">♙</b><h2 id="moduleHeading">Módulo de clientes</h2><p id="moduleDescription">Desde este espacio podrás consultar y administrar la información de los clientes del taller.</p><div class="notice"><strong>Vista inicial del módulo</strong><span>Esta interfaz corresponde a la estructura visual inicial. Los formularios, listados y operaciones se incorporarán en las siguientes etapas del desarrollo.</span></div><button class="primary" data-page="inicio">← Volver al panel principal</button></article>
+</section>
+</main>
+</div>
+<footer><span>© 2026 RECTISOFT</span><span>Sistema de gestión para Rectificadora de Motores Navarrete</span></footer>
+<script src="js/app.js"></script>
+</body></html>
